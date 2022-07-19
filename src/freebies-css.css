@@ -3,26 +3,23 @@
      box-sizing: border-box;
  }
 
- body {}
-
-
  @font-face { 
     font-family: "Rubik"; 
-    src: url("/static/Rubik-Regular.ttf") format("truetype"); 
+    src: url("/fonts/Rubik-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
 
  @font-face { 
     font-family: "Rubik-bold"; 
-    src: url("/static/Rubik-Bold.ttf") format("truetype"); 
+    src: url("/src/fonts/Rubik-Bold.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
     
  @font-face { 
     font-family: "Rubik-medium"; 
-    src: url("/static/Rubik-Medium.ttf") format("truetype"); 
+    src: url("/src/fonts/Rubik-Medium.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
@@ -191,38 +188,6 @@
     font-weight: 500;
 }
 
-/* .content-left_button {
-    max-width: 250px;
-    width: 100%;
-    min-height: 60px;
-    background: #F53838;
-    border-radius: 10px;
-    line-height: 25px;
-    font-size: 16px;
-    color: #FFF;
-    font-weight: 700;
-    font-family: "Rubik-bold", sans-serif;
-    border: none;
-    position: relative;
-    outline: unset;
-}
-
-.content-left_button::after {
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 25px;
-    transform: translateX(-50%);
-    content:"";
-    height: 60px;
-    width: 212px;
-    background: rgba(245, 56, 56, 0.35);
-    filter: blur(54px);
-    border-radius: 10px;
-    z-index: -1;
-
-} */
-
 .hero-wrapper_two_content {
     margin: 0 auto;
     max-width: 1140px;
@@ -315,7 +280,6 @@
     font-weight: 500;
     line-height: 50px;
     color: #0B132A;
-    /* padding: 40px 0 20px 0; */
 }
 
 .hero-wrapper_subtitle {
@@ -411,7 +375,6 @@
 }
 
 .hero-section_price {
-    /* padding: 30px 0 20px 0; */
     font-family: "Rubik-medium", sans-serif;
     font-size: 30px;
     font-weight: 500;
@@ -682,20 +645,20 @@
 
 .button-wrapper .swiper-button-prev::after {
     position: absolute;
-    content: url("left-svg-white.svg");
+    content: url("/src/img/svg/left-svg-white.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .button-wrapper .swiper-button-next::after {
     position: absolute;
-    content: url("left-svg-white.svg");
+    content: url("/src/img/svg/left-svg-white.svg");
     transform: rotate(180deg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .swiper-button-disabled::after{
-    content: url("left-svg.svg") !important;  
+    content: url("/src/img/svg/left-svg.svg") !important;  
 }
 
 .swiper-button-disabled {
