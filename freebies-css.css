@@ -5,21 +5,21 @@
 
  @font-face { 
     font-family: "Rubik"; 
-    src: url("/fonts/Rubik-Regular.ttf") format("truetype"); 
+    src: url("/freebies-layout/src/fonts/Rubik-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
 
  @font-face { 
     font-family: "Rubik-bold"; 
-    src: url("/src/fonts/Rubik-Bold.ttf") format("truetype"); 
+    src: url("/freebies-layout/src/fonts/Rubik-Bold.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
     
  @font-face { 
     font-family: "Rubik-medium"; 
-    src: url("/src/fonts/Rubik-Medium.ttf") format("truetype"); 
+    src: url("/freebies-layout/src/fonts/Rubik-Medium.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
@@ -642,20 +642,20 @@
 
 .button-wrapper .swiper-button-prev::after {
     position: absolute;
-    content: url("/src/img/svg/left-svg-white.svg");
+    content: url("/freebies-layout/src/img/svg/left-svg-white.svg;")
     background-repeat: no-repeat;
     background-position: center;
 }
 .button-wrapper .swiper-button-next::after {
     position: absolute;
-    content: url("/src/img/svg/left-svg-white.svg");
+    content: url("/freebies-layout/src/img/svg/left-svg-white.svg");
     transform: rotate(180deg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .swiper-button-disabled::after{
-    content: url("/src/img/svg/left-svg.svg") !important;  
+    content: url("/freebies-layout/src/img/svg/left-svg.svg") !important;  
 }
 
 .swiper-button-disabled {
